@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'box-builder';
+  boxCountArray = [];
+  addBox() {
+    const numOfBox = this.boxCountArray.length;
+    this.boxCountArray[numOfBox] = numOfBox + 1;
+  }
+
+  removeBox() {
+    this.boxCountArray.splice(-1, 1);
+  }
 }

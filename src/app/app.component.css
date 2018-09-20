@@ -1,0 +1,48 @@
+.content-holder {
+    text-align: center;
+}
+button {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+.add-box {
+    background-color: green;
+    width: 114px;
+    height: 50px;
+}
+
+.remove-box {
+    background-color: red;
+    width: 138px;
+    height: 50px;
+}
+
+.square-box {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+}
+
+.odd-box {
+    background-color: blue;
+}
+
+.even-box {
+    background-color: black;
+}
+
+.fifth-count-box {
+    border-top: 2px solid orange;
+}
+
