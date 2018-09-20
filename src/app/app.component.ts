@@ -16,4 +16,8 @@ export class AppComponent {
   removeBox() {
     this.boxCountArray.splice(-1, 1);
   }
+
+  getFontSize() {
+    return (this.boxCountArray.length + 15)+'px';
+  }
 }

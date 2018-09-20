@@ -11,6 +11,5 @@
     <div class="square-box" [ngClass]="{'odd-box':boxNumber%2,'even-box':boxNumber%2===0,'fifth-count-box':boxNumber%5===0}" *ngFor="let boxNumber of boxCountArray">{{boxNumber}}</div>
   </div>
   <div *ngIf="!boxCountArray.length">No Boxes</div>
-  <div *ngIf="boxCountArray.length">{{boxCountArray.length}}</div>
-
+  <div *ngIf="boxCountArray.length" [ngStyle]="{'font-size':getFontSize()}">{{boxCountArray.length}}</div>
 </div>
